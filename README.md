@@ -21,7 +21,7 @@ How to use this repository
 
 | S No. | Topic     | Assignment                                | FreeCodeCamp Id | Question Done Till Now |
 | ----- | --------- | ----------------------------------------- | --------------- | --------------- |
-| 1     | JS Basics | [JS BASIC Question List](./1-JS-BASICS/) |                 |                 |
+| 1     | JS Basics | [JS BASIC Question List](./1-JS-BASICS/) | fcc51a63d62-485c-42e1-a3f9-f7df7f718c74                | 100 done                |
 
 # HTML
 
