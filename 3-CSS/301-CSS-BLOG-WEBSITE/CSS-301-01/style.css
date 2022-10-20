@@ -1,1 +1,15 @@
 /* start your css here */
+
+p{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 44px;
+color: #292929;
+position: absolute;
+width: 530px;
+height: 88px;
+left: 419px;
+top: 176px;
+}
