@@ -1,1 +1,11 @@
 /* start your css here */
+
+img{
+    width: 200px;
+    height: 300px;
+}
+
+div{
+    width: 400px;
+    margin: 50px auto;
+}
