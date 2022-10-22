@@ -1,1 +1,25 @@
 /* start your css here */
+
+.navbar{
+    background-color: black;
+    color: rgb(219, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style-type: none;
+}
+
+li{
+    font-size: 20px;
+}
+
+#heading{
+    font-weight: bold;
+    color: white;
+}
