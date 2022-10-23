@@ -1,1 +1,76 @@
 /* start your styling here  */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.sub-container{
+    display: flex;
+    margin: 20px auto;
+    border-radius: 50px;
+
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.item1, .item2, .item3{
+    width: 100%;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+
+.item1{
+    background-color: rgb(202, 202, 21);
+}
+
+.item2{
+    background-color: rgb(106, 42, 167);
+}
+
+.item3{
+    background-color: rgb(39, 39, 170);
+}
+
+.btn{
+    padding: 15px 30px;
+    background-color: coral;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    margin: 50px 0px;
+    cursor: pointer;
+}
+
+.heading{
+    color: white;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.para{
+    color: rgb(235, 227, 227);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.item1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.item3{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
