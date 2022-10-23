@@ -1,1 +1,87 @@
 /* start your styling here  */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    height: 400px;
+    width: 350px;
+    margin: 50px auto;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sub-container{
+    width: auto;
+    height: auto;
+    background-color: pink;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sub1{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.sub2{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.sub3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+
+#o{
+    width: 200px;
+    justify-content: end;
+    padding-right: 10px;
+    background-color: darkslateblue;
+}
+
+.blue{
+    background-color: darkslateblue;
+}
+
+.yellow{
+    background-color: yellow;
+    color: rgb(58, 115, 223);
+}
+
+#equal{
+    background-color: lightgreen;
+    color: rgb(58, 115, 223);
+}
