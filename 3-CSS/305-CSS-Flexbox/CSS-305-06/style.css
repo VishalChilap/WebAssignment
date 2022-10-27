@@ -1,1 +1,131 @@
 /* start your styling here  */
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.logo img{
+    height: 30px;
+    width: 30px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    text-align: center;
+    margin-right: 50px;
+}
+
+.logo p{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+
+li span{
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.container{
+    display: flex;
+    padding-top: 50px;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 20px;
+}
+
+.right-session img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    padding-right: 20px;
+    justify-content: end;
+}
+
+.heading{
+    font-size: 40px;
+    color: chocolate;
+    width: 60%;
+}
+
+input[type="email"]{
+    width: 60%;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(54, 52, 52);
+    padding: 5px;
+}
+
+input[type="password"]{
+    width: 60%;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(54, 52, 52);
+    padding: 5px;
+}
+
+.para{
+    width: 60%;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.para a{
+    text-decoration: none;
+   
+}
+
+.para span{
+    border: 1px solid black;
+    width: 60%;
+    height: 0%;
+    margin: 0px 5px;
+}
+
+.or{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    margin-top: 20px;
+    margin-right: 100px;
+    padding: 10px 50px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+
+li button{
+    padding: 5px 20px;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+li img{
+    width: 20px;
+    height: 20px;
+}
