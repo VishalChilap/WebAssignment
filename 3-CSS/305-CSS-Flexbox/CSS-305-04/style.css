@@ -1,1 +1,105 @@
 /* start your styling here  */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    background-color: blue;
+    color: white;
+    display: flex;
+    padding: 10px 50px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.serch div{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+input[type="text"]{
+    border: none;
+    font-size: 15px;
+    width: 100%;
+}
+
+.serch i{
+    color: blue;
+}
+
+button{
+    padding: 5px 30px;
+    background-color: white;
+    color: blue;
+    font-size: 17px;
+    border: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.more{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: blue;
+    border: none;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+}
+
+.cart p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    box-shadow: 0px 1px 10px whitesmoke;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content img{
+    height: 70px;
+    width: 70px;
+}
+
+.content p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.content select{
+    border: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
