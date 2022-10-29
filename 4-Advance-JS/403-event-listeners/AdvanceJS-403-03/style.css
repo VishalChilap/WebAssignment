@@ -1,0 +1,90 @@
+
+
+*{
+  margin: 0;
+  padding: 0%;
+}
+
+.container{
+  height: 100vh;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190614/ourmid/pngtree-food-food-fruit-and-vegetable-image_122713.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.card{
+  width: 400px;
+  background-color: white;
+  margin: 0% auto;
+}
+
+.card-heading{
+  text-align: center;
+}
+
+p{
+  font-size: 25px;
+  font-weight: 900;
+  width: fit-content;
+  margin: 0% auto;
+  padding-top: 20px;
+}
+
+.card-body{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+label{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+input[type="number"]{
+  margin-top: 5px;
+  font-size: 18px;
+  margin-left: 2px;
+  font-weight: 700;
+  width: 200px;
+  padding: 0% 5px;
+}
+
+span{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+select{
+  margin-top: 5px;
+  color: brown;
+  background-color: white;
+  font-weight: 700;
+}
+
+option{
+  font-weight: 700;
+}
+
+button{
+  margin: 20px auto;
+  padding: 5px 30px;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: coral;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.footer{
+  text-align: center;
+}
+
+#ab{
+  margin-left: 5px;
+}
+
+.each{
+  padding-bottom: 20px;
+}

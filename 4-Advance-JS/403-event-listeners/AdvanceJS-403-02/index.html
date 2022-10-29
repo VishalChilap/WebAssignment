@@ -5,8 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+     <style>
+
+      .container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        background-color: rgb(100, 97, 97);
+      }
+
+      p{
+        margin-top: 100px;
+        font-size: 60px;
+        font-weight: 900;
+        color: red;
+      }
+
+      img{
+        width: 100px;
+        height: 100px;
+      }
+
+      .image{
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-evenly;
+
+      }
+
+      .img{
+        margin: 0 30px;
+        padding: 10px;
+        background-color: rgb(73, 71, 71);
+        border-radius: 10px;
+      }
+
+
+     </style>
   </head>
   <body>
-    Start your code here
+    
+    <div class="container">
+      <div class="heading">
+        <p>Drum Kit</p>
+      </div>
+      <div class="image">
+        <div class="img">
+          <img src="./images/crash.png" alt="">
+        </div>
+        <div class="img">
+          <img src="./images/kick.png" alt="">
+        </div>
+        <div class="img">
+          <img src="./images/snare.png" alt="">
+        </div>
+        <div class="img">
+          <img src="./images/tom1.png" alt="">
+        </div>
+        <div class="img">
+          <img src="./images/tom2.png" alt="">
+        </div>
+        <div class="img">
+          <img src="./images/tom3.png" alt="">
+        </div>
+        <div class="img">
+          <img src="./images/tom4.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
