@@ -5,8 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <style>
+      .container{
+        text-align: center;
+      }
+
+      h1{
+        margin-top: 50px;
+        color: lightgreen;
+      }
+
+      h3{
+        margin-top: 50px;
+      }
+
+      button{
+        margin-top: 50px;
+        padding: 10px 30px;
+        color: black;
+        background-color: aqua;
+        font-size: 18px;
+      }
+    </style>
+
+    <script>
+
+      function fn(){
+
+        var divRef = document.getElementById("div");
+
+        var imageRef = document.createElement('img');
+
+        imageRef.style.marginTop = '50'
+
+        imageRef.src = "https://mybigplunge.com/wp-content/uploads/2021/12/Geekster_logo.jpg"
+
+        imageRef.style.width = '300px'
+
+        imageRef.style.height = '200px'
+
+        divRef.appendChild(imageRef);
+
+        console.log(imageRef);
+
+      }
+    </script>
   </head>
   <body>
-    Start your code here
+    <div class="container" id="div">
+      <h1>Geekster</h1>
+      <h3>Click on button to add image element</h3>
+      <button onclick="fn()">click me</button>
+      <br>
+    </div>
   </body>
 </html>
