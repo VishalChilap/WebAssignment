@@ -1,6 +1,8 @@
 
 
-function fn(){
+function fn(e){
+
+    e.preventDefault();
 
     var amountRef = document.getElementById('amount');
 
@@ -30,4 +32,8 @@ function fn(){
     var disRef = document.getElementById('dis');
 
     disRef.innerText = "$ "+amount;
+
+    // amountRef.value = "";
+
+    // peopleRef.value = "";
 }

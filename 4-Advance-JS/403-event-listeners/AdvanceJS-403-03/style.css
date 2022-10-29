@@ -66,8 +66,8 @@ option{
   font-weight: 700;
 }
 
-button{
-  margin: 20px auto;
+#btn{
+  margin: 30px auto;
   padding: 5px 30px;
   font-size: 20px;
   font-weight: 900;
@@ -75,6 +75,7 @@ button{
   color: white;
   border: none;
   border-radius: 10px;
+  margin-left: 100px;
 }
 
 .footer{

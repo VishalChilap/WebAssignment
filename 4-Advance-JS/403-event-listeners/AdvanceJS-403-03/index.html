@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <div class="container">
 
-      <div class="card">
-        <div class="card-heading">
-          <p>Charles' Tip Calculator</p>
-        </div>
-        <div class="card-body">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="card">
+      <div class="card-heading">
+        <p>Charles' Tip Calculator</p>
+      </div>
+      <div class="card-body">
+        <form action="">
           <label for="amount">How much was your bill</label>
           <br>
           <span>$</span><input type="number" id="amount" required>
           <br><br>
           <label for="pecentage">How was your service</label>
           <br>
-          <select name="" id="select">
+          <select name="" id="select" required>
             <option value="">Choose an option</option>
             <option value="30">30%-Outstanding</option>
             <option value="20">20%-Good</option>
@@ -31,16 +34,19 @@
           </select>
           <br><br>
           <input type="number" id="people" required><span id="ab">people</span>
-        </div>
-        <div class="footer">
-          <button onclick="fn()">Calulate</button>
-          <p>TIP AMOUNT</p>
-          <p id="dis"></p>
-          <p class="each">each</p>
-        </div>
+          <br>
+          <input type="submit" value="Calulate" onclick="fn(event)" id="btn">
+        </form>
+      </div>
+      <div class="footer">
+        <p>TIP AMOUNT</p>
+        <p id="dis"></p>
+        <p class="each">each</p>
       </div>
     </div>
+  </div>
 
-    <script src="./main.js"></script>
-  </body>
+  <script src="./main.js"></script>
+</body>
+
 </html>
