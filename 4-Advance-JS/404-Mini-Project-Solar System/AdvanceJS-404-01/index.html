@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <p class="heading">Calculate a weight of an object on a planet</p>
+    <div class="input">
+      <input type="number" id="mass" placeholder="Enter weight in kg">
+      <select name="planet" id="planet">
+        <option value="Earth">Earth</option>
+        <option value="Galaxy">Galaxy</option>
+        <option value="Jupiter">Jupiter</option>
+        <option value="Mars">Mars</option>
+        <option value="Mercury">Mercury</option>
+        <option value="Moon">Moon</option>
+        <option value="Neptune">Neptune</option>
+        <option value="Pluto">Pluto</option>
+        <option value="Saturn">Saturn</option>
+        <option value="Uranus">Uranus</option>
+        <option value="Venus">Venus</option>
+      </select>
+      <button class="btn" onclick="fn()">Calculate</button>
+    </div>
+    <div class="data" id="div">
+      <img src="" alt="" id="img">
+      <div class="ans">
+        <p class="name">The weight of the object on <span id="span"></span></p>
+        <p class="newton" id="resultWeight"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
 </html>

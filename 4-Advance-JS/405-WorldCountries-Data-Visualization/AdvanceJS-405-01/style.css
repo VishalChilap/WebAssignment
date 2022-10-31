@@ -1,0 +1,16 @@
+.tablediv{
+    background-color: orange;
+    display: flex;
+    height: 50px;
+    width: 91%;
+}
+
+table{
+    width: 500px;
+    border: 2px solid;
+}
+
+.middletd{
+    border: 2px solid;
+    width: 300px;
+}
