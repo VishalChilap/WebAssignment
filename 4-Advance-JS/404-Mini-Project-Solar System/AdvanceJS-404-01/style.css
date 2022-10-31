@@ -46,6 +46,7 @@ select{
     border-radius: 10px;
     margin-left: 5px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .data{
