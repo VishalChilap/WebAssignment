@@ -69,7 +69,7 @@ function fn(){
         spanRef.innerText = 'Neptune';
     }
     else if(selectRef.value==='Pluto'){
-        imgRef.src = './ProjectImage/Pluto.png';
+        imgRef.src = './ProjectImage/pluto.png';
 
         ans = 1.14*inputRef.value*9.80665;
 
