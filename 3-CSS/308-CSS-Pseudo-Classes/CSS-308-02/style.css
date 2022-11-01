@@ -1,1 +1,58 @@
 /* start your styling here  */
+
+.container{
+    width: 500px;
+    margin: 50px auto;
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.btn1{
+    background-color: orange;
+}
+.btn2{
+    background-color: red;
+}
+
+.first{
+    visibility: hidden;
+    position: absolute;
+    top: 100px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 100px;
+    list-style-type: none;
+}
+
+.second{
+    visibility: hidden;
+    position: absolute;
+    top: 300px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 100px;
+    list-style-type: none;
+}
+
+.btn1:hover .first{
+    visibility: visible;
+}
+
+.btn2:hover .second{
+    visibility: visible;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next{
+    margin-top: 100px;
+}
