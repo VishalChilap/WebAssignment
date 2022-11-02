@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <header id="countries">
-      <h2>World Countries Data</h2>
-      <h5>Currently, we have 250 countries</h5>
+</head>
+<body>
+    <header id="coutries">
+        <h2>
+            World Coutries Data
+        </h2>
+        <h5>
+            Currently,we have 250 coutries
+        </h5>
     </header>
-    <main>
-      <div class="wrapper">
-        <div class="graph-buttons">
-          <button class="population">Population</button>
-          <button class="langauges">Langauges</button>
+     <main>
+        <div class="wrapper">
+            <div class="graph-buttons">
+                <button class="population" onclick="showpop()">
+                 Population
+                </button>
+                <button class="languages" onclick="showlang()">languages</button>
+            </div>
+            <h4 class="graph-title"></h4>
+            <div class="graph">
+             <div class="graph-wrapper" id="stat"></div>
+            </div>
+            <p id="se"></p>
         </div>
-        <h4 class="graph-title"></h4>
-        <div class="graph">
-          <div class="graph-wrapper" id="start"></div>
-        </div>
-      </div>
-    </main>
-    <table id="tableid">
-
-    </table>
-    <table id="populationtable">
-      <tr>
-        <td>world population</td>
-        <td>
-          <div class="tablediv" style="width: 100%;">Total world population</div>
-        </td>
-        <td>7693165599</td>
-      </tr>
-    </table>
-
-
-    <script src="./countries_data.js"></script>
-    <script src="./main.js"></script>
-  </body>
+     </main>
+     <table id="tableid">
+     
+     </table>
+     <table id="populationtable">
+        <tr>
+            <td>
+                world Population
+            </td>
+            <td>
+                <div class="tablediv" style='width:100%'></div>
+            </td>
+            <td>
+                7693165599
+            </td>
+        </tr>
+        
+     </table>
+    <script src="countries_data.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>
