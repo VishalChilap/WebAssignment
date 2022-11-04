@@ -1,1 +1,154 @@
 /* start your styling here  */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+    box-shadow: 0 0 10px black;
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    margin-left: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a:hover{
+    color: green;
+    border-top: 1px solid green;
+}
+
+#blog div{
+    width: 100px;
+    padding: 0px 20px;
+    position: absolute;
+    right: 225px;
+    top: 60px;
+    display: none;
+    background-color: coral;
+}
+
+#blog div p{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+
+#blog:hover div{
+    display: block;
+}
+
+.body{
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.left{
+    width: 50%;
+}
+
+.left .title{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.left p{
+    margin-bottom: 10px;
+}
+
+.right img{
+    width: 80%;
+    height: 300px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+i{
+    margin: 0 30px;
+    font-size: 30px;
+}
+
+i:hover{
+    color: green;
+    font-size: 35px;
+}
+
+.button-section{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgrey;
+    height: 200px;
+}
+
+.button-section button{
+    padding: 5px 15px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.button-section button:hover{
+    color: rgb(117, 114, 114);
+}
+
+.footer{
+    text-align: center;
+    padding: 30px 0px;
+    background-color: cornflowerblue;
+}
+
+.footer img{
+    width: 150px;
+    height: 75px;
+}
+
+.footer p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 900;
+}
