@@ -58,3 +58,5 @@ function display(ans){
     });
 
 }
+
+display("");
