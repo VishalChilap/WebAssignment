@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    Start your code here
+    <div class="header">
+      <h1>Emojee - Emoji Aoolication 🔍</h1>
+      <hr>
+      <form action="" id="form">
+        <input type="text" id="input" onkeydown="fn()">
+        <button onclick="serch(event)">Click for serch</button>
+      </form>
+    </div>
+    <div id="data">
+      <table id="table"></table>
+    </div>
+
+
+    <script src="./emojiList.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
