@@ -15,7 +15,7 @@ function validation(e){
     var passwordcheck = /^(?=.*d)(?=.*[a-zA-Z]).{6,20}$/;
     var emailcheck = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/;
     var telephonecheck = /^(?:(?:\+|0{0,2})91(\s*[\ -]\s*)?|[0]?)?[789]\d{9}|(\d[ -]?){10}\d$/;
-    var biocheck = /^[a-z-_]{8,50}$/;
+    var biocheck = /^[a-z-_ ]{8,50}$/;
 
     if(first_namecheck.test(first_name)){
         document.getElementById('firsterror').innerHTML = "";
