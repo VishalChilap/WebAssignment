@@ -1,15 +1,43 @@
 /* start your css here */
 
 p{
-    font-family: 'Georgia';
-font-style: normal;
-font-weight: 400;
-font-size: 39px;
-line-height: 44px;
-color: #292929;
-position: absolute;
-width: 530px;
-height: 88px;
-left: 419px;
-top: 176px;
+    width: 500px;
+}
+
+.container{
+    /* text-align: center; */
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+   /* margin: 20px 0 20px 50px; */
+    font-size: 20px;
+    font-weight: 700;
+    /* border: 2px solid; */
+    /* padding: 0 auto; */
+    width: fit-content;
+    margin: 20px auto;
+}
+
+img{
+    width: 600px;
+}
+
+.para{
+    margin-top: 30px;
+}
+
+iframe{
+    margin-top: 30px;
+}
+
+.footer{
+    font-size: 18px;
+    font-weight: 500;
+    /* border: 2px solid; */
+    text-align: center;
 }
