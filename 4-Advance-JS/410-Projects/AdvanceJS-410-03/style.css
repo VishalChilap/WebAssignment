@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: aquamarine;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.container .heading{
+    font-size: 30px;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.container .sub-title{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type="text"]{
+    margin: 10px 41%;
+    font-size: 20px;
+    padding: 0 4px;
+}
+
+#result{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    background-color: rgb(226, 130, 96);
+    display: none;
+    height: auto;
+}
+
+#result div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 150px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#result div img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+#result div p{
+    font-size: 18px;
+    text-align: center;
+}
