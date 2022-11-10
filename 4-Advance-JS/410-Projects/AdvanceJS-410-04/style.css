@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(107, 107, 196);
+}
+
+
+.heading{
+    width: 70%;
+    margin: 20px auto;
+    background-color: whitesmoke;
+}
+
+.heading h1{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.data{
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+
+input[type="submit"]{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: coral;
+    color: white;
+    margin-top: 20px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type="text"]{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2px 5px;
+    width: 80%;
+    margin: auto;
+}
+
+#result{
+    width: 350px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+    display: none;
+}
+
+#result .city{
+    background-color: blue;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+#result .city span{
+    color: black;
+}
+
+#result .condition{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+#result .condition span{
+    color: firebrick;
+}
+
+#result .temp{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+#result .temp span{
+    color: firebrick;
+}
+
+#result .speed{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+#result .speed span{
+    color: firebrick;
+}
