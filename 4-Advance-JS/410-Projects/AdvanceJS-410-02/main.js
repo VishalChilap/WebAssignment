@@ -46,13 +46,44 @@ function getData(inputRef){
 
                     resultRef.appendChild(p);
 
-                    let audio = document.createElement('audio');
+                    // let audio = document.createElement('audio');
 
-                    audio.classList.add('audio')
+                    // audio.classList.add('audio')
 
-                    audio.src = "success[0].hwi.prs[0].sound.audio";
+                    // audio.src = "https://media.merriam-webster.com/audio/prons/en/us/mp3/p/pajama02.mp3";
 
-                    resultRef.appendChild(audio);
+                    // resultRef.appendChild(audio);
+
+                    console.log(success[0].hwi.prs[0].sound.audio)
+
+                    let temp = success[0].hwi.prs[0].sound.audio;
+
+                    let ref;
+
+                    if(temp.indexOf('bix')===0){
+                        console.log('bix');
+                        ref = 'bix';
+                    }
+                    else if(temp.indexOf('gg')===0){
+                        console.log('gg');
+                        ref = 'gg';
+                    }
+                    else if(temp.indexOf('0')===0 || temp.indexOf('1')===0 || temp.indexOf('2')===0 || temp.indexOf('3')===0
+                    || temp.indexOf('4')===0 || temp.indexOf('5')===0 || temp.indexOf('6')===0 || temp.indexOf('8')===0
+                    || temp.indexOf('9')===0 || temp.indexOf('7')===0 || temp.indexOf('_')===0){
+                        console.log('number')
+                        ref = 'number';
+                    }
+                    else{
+                        console.log('letter');
+                        ref = temp.charAt(0);
+                    }
+
+                    let a = new Audio(`https://media.merriam-webster.com/audio/prons/en/us/mp3/${ref}/${success[0].hwi.prs[0].sound.audio}.mp3`)
+                    a.play();
+
+                    
+
                 }
             }, function(error){});
 
